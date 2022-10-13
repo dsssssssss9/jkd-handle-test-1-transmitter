@@ -1,4 +1,13 @@
-radio.setGroup(42)
+/**
+ * Yahboom Bot Car
+ * 
+ * Handle ( controler ) 
+ * 
+ * Basic code
+ * 
+ * handle shows X when stop ( red ) button is pressed
+ */
+radio.setGroup(63)
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
     if (GHBit.Rocker(GHBit.enRocker.Up)) {
